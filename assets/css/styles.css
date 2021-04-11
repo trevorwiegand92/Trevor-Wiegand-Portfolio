@@ -145,6 +145,8 @@ footer p {
     font-size: 85%;
 }
 
+/* THis media query is adjusting the layout of the page to stack in a single column 
+    when the width of the screen is below 768pixels. */
 @media screen and (min-width: 768px) {
     header
     main,
