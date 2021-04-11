@@ -8,9 +8,12 @@ The objective of this assignment was to create the beginnings of our own portfol
 
 Live URL:
 
+https://trevorwiegand92.github.io/Trevor-Wiegand-Portfolio/
 
 
 Github Repository URL:
+
+https://github.com/trevorwiegand92/Trevor-Wiegand-Portfolio
 
 
 ![Here's a screenshot of the finished index page.]("./assets/images/portfolio_index_page.png")
