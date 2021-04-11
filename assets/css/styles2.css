@@ -1,0 +1,140 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html {
+    background-color: lemonchiffon;
+}
+
+body,h1 {
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    position: sticky; 
+    color: #f0ead6;
+    background-color: #191970;
+  }
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+    padding-top: 15px;
+    margin-top: -10px;
+}
+
+header nav {
+    padding-top: 15px;
+    margin-top: -10px;
+    margin-right: 20px;
+    float: right;
+    font-weight: bold;
+    font-size: 20px;
+    color: #f0ead6;
+}
+
+header ul {
+    list-style-type: none;
+    display: inline;
+}
+
+header ul li {
+    display: inline;
+    margin-left: 25px;
+}
+
+a {
+    color: #f0ead6;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+}
+
+.header-image {
+    float: left;
+    margin: 1%;
+    width: auto;
+    height:auto;
+    max-width: 80px;
+    max-height: 80px;
+    border-style: none;
+    border-radius: 50px;
+}
+
+h2 a {
+    color: black;
+    text-decoration: underline;
+    margin-bottom: 3%;
+}
+
+
+.header-image {
+    width: auto;
+    height:auto;
+    max-width: 80px;
+    max-height: 80px;
+    border-style: none;
+    border-radius: 50px;
+}
+
+.hdrAlign {
+    display: inline;
+    margin-right: 3%;
+}
+
+section img {
+    width: auto;
+    height:auto;
+    max-width: 25%;
+    max-height: 25%;
+    border-style: none;
+    justify-content: space-between;
+    margin-left: 1%; 
+    margin-right: 1%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 3%;
+  }
+
+  footer {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    color: #f0ead6;
+    background-color: #191970;
+    text-align: right;
+    font-weight: bold;
+    padding-right: 2%;
+}
+  
+.footer-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+      
+}
+
+footer h3 {
+    margin: 2%;
+}
+
+footer p {
+    font-size: 85%;
+}
+
+@media screen and (min-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+}

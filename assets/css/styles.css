@@ -1,0 +1,155 @@
+/* this is setting a specific font family for the whole webpage. */
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* this is setting a specific background color for the webpage. */
+html {
+    background-color: lemonchiffon;
+}
+
+/* this is setting specifications for the width, height, line-height, and positioning of the header section
+    It is also applying a background color and font color.*/
+header {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    position: sticky;
+    color: #f0ead6;
+    background-color: #191970;
+}
+
+/* This is setting the font size of the heading within the header to a size of 48pixels, applying
+    a padding and a top margin to 15pixels and -10pixels, respectively, and displaying it 
+    inline with the rest of the content within the header container. */
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+    padding-top: 15px;
+    margin-top: -10px;
+}
+
+/* this is setting the links in the header to the right side of the header container,
+    applying a padding, a top margin, and a right margin to 15pixels and -10pixels, 
+    and 20pixels, respectively; it is also making the font bold, a size of 20pixels, 
+    and an off-white color.*/
+header nav {
+    padding-top: 15px;
+    margin-top: -10px;
+    margin-right: 20px;
+    float: right;
+    font-weight: bold;
+    font-size: 20px;
+    color: #f0ead6;
+}
+
+/* This is displaying the list of links inline with one another and applying no text decorations. */
+header ul {
+    list-style-type: none;
+    display: inline;
+}
+
+/* Displaying the list items inline with one another and applying a left margin of 25pixels to each of them. */
+header ul li {
+    display: inline;
+    margin-left: 25px;
+}
+
+/* This is applying a specific color to the links within the header and applying no text decoration. */
+a {
+    color: #f0ead6;
+    text-decoration: none;
+}
+
+/* This is changing the color os the links in the header when the cursor hovers over them.*/
+a:hover {
+    color: #fff;
+}
+
+/* This class is floating the image in the header to the left of the text, setting a max width and height, 
+    rounding the corners of the image and applying no border, and setting the all-around margins to 1%. */
+.header-image {
+    float: left;
+    margin: 1%;
+    width: auto;
+    height:auto;
+    max-width: 80px;
+    max-height: 80px;
+    border-style: none;
+    border-radius: 50px;
+}
+
+/* This is setting the h2 headings to a font size of 36pixels, and applying a top and left margin
+    of 4% and 3%, respectively. */
+main h2 {
+    font-size: 36px;
+    margin-top: 4%;
+    margin-left: 3%;
+}
+
+/* This class is displaying the content inline and spaced evenly within its container.*/
+.mainSection {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+/* This class is aligning the main text to the right side and allowing it to take up 75%
+    of its container. Applying a padding and left margin of .5rem, making the line height 1.5em
+    and creating a vertical, black line to the left side of the text.*/
+.aside {
+    width: 75%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px black;
+    color:black;
+    line-height: 1.5em;
+}
+
+/* This is giving the link within the paragraph an underline and making the text of the link to black*/
+p a {
+    color: #000000;
+    text-decoration: underline;
+}
+
+/* This is setting the footer to take up the full size of the footer-container, setting the line-height to 100pixels
+    making the text bold and aligning it to the right, giving the background and font specific colors,
+    and applying a right-padding of 1%.*/
+footer {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    color: #f0ead6;
+    background-color: #191970;
+    text-align: right;
+    font-weight: bold;
+    padding-right: 1%;
+}
+
+/* This class is aligning the content within the footer container into an evenly spaced row and
+    centering the content vertically.*/
+.footer-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* This is giving the heading within the footer an all-around margin of 2%.*/
+footer h3 {
+    margin: 2%;
+}
+
+/* This is setting the text of the paragraph tag within the footer to a size of 85%.*/
+footer p {
+    font-size: 85%;
+}
+
+@media screen and (min-width: 768px) {
+    header
+    main,
+    nav
+    footer {
+      flex-direction: column;
+    }
+}
