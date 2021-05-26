@@ -5,7 +5,7 @@
 
 /* this is setting a specific background color for the webpage. */
 html {
-    background-color: lemonchiffon;
+    background-color: #d9dcd6;
 }
 
 /* this is setting specifications for the width, height, line-height, and positioning of the header section
@@ -16,7 +16,7 @@ header {
     line-height: 100px;
     position: sticky;
     color: #f0ead6;
-    background-color: #191970;
+    background-color: #0072bb;
 }
 
 /* This is setting the font size of the heading within the header to a size of 48pixels, applying
@@ -120,7 +120,7 @@ footer {
     height: 100px;
     line-height: 100px;
     color: #f0ead6;
-    background-color: #191970;
+    background-color: #0072bb;
     text-align: right;
     font-weight: bold;
     padding-right: 1%;
@@ -147,7 +147,7 @@ footer p {
 
 /* THis media query is adjusting the layout of the page to stack in a single column 
     when the width of the screen is below 768pixels. */
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
     header
     main,
     nav
