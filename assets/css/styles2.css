@@ -1,6 +1,7 @@
 /* this is setting a specific font family for the whole webpage. */
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
 }
 
 /* this is setting a specific background color for the webpage. */
@@ -89,6 +90,23 @@ h2 a {
     text-decoration: underline;
     margin-bottom: 3%;
 }
+
+
+  
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+  
+  /* Clear floats after the columns */
+.educationRow:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 /* This is applying a max width and height to all the images in the section tags, 
     giving them no borders, spacing them evenly within the container, 
