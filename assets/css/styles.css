@@ -87,6 +87,12 @@ main h2 {
     margin-left: 3%;
 }
 
+.examplesClass {
+    font-size: 36px;
+    margin-top: 4%;
+    margin-left: 7%;
+}
+
 /* This class is displaying the content inline and spaced evenly within its container.*/
 .mainSection {
     display: inline-flex;
@@ -100,6 +106,20 @@ main h2 {
     width: 75%;
     padding-left: .5rem;
     margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px black;
+    color:black;
+    line-height: 1.5em;
+}
+
+.experience {
+    display: inline-flex;
+    justify-content: space-between;
+}
+.experienceTab {
+    width: 75%;
+    padding-left: .5rem;
+    margin-left: 4.5rem;
     float: right;
     box-shadow: inset 5px 0 5px -5px black;
     color:black;

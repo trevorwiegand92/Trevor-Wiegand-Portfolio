@@ -26,4 +26,6 @@ https://github.com/trevorwiegand92/Trevor-Wiegand-Portfolio
 
 ![Here's a screenshot of the finished examples page.](./assets/images/portfolio_examples_page2.png)
 
+![Here's a screenshot of the finished examples page.](./assets/images/experience_page.png)
+
 

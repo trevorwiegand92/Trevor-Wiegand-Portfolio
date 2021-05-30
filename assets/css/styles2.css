@@ -71,6 +71,11 @@ a:hover {
     color: #fff;
 }
 
+
+.link2URL {
+  font: black;
+}
+
 /* This class is floating the image in the header to the left of the text, setting a max width and height, 
     rounding the corners of the image and applying no border, and setting the all-around margins to 1%. */
 .header-image {
@@ -90,8 +95,6 @@ h2 a {
     text-decoration: underline;
     margin-bottom: 3%;
 }
-
-
   
 /* Create two equal columns that floats next to each other */
 .column {
