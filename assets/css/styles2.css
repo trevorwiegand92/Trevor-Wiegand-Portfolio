@@ -72,9 +72,6 @@ a:hover {
 }
 
 
-.link2URL {
-  font: black;
-}
 
 /* This class is floating the image in the header to the left of the text, setting a max width and height, 
     rounding the corners of the image and applying no border, and setting the all-around margins to 1%. */
